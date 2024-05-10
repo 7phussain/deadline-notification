@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notificationP {
+  position: relative;
+}
+.notifyNo {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
+.notifyImg {
+  width: 40px;
+}
